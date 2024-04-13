@@ -9,11 +9,17 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  display: flex;
+  align-items: center;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: auto;
 }
 
 a {
